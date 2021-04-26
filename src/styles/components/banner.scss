@@ -1,0 +1,21 @@
+.main {
+  height: 50vh; //fallback
+  height: calc(var(--vh, 1vh) * 50);
+  background-color: #ffffff;
+  .row {
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      .line {
+        span {
+        }
+      }
+    }
+    .btn-row {
+      a {
+        svg {
+        }
+      }
+    }
+  }
+}
